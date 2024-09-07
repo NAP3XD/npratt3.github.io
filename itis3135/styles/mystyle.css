@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(54, 61, 82);
+    color: black;
+    font-family: Tahoma;
+}
+header, main, footer {
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
