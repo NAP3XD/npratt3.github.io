@@ -1,7 +1,8 @@
 body {
-    background-color: rgb(54, 61, 82);
+    background-color: rgb(190, 190, 190);
     color: black;
     font-family: Tahoma;
+    fon: green; 
 }
 header, main, footer {
     width: 95%;
@@ -11,4 +12,7 @@ header, main, footer {
 
 img {
     margin: auto;   
+}
+p {
+    color: rgb(41, 2, 2);
 }
