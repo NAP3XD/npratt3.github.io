@@ -1,18 +1,37 @@
 body {
     background-color: rgb(190, 190, 190);
     color: black;
-    font-family: Tahoma;
-    fon: green; 
+    font-family: Tahoma, Geneva, sans-serif;
+    font: rgba(10, 36, 10, 0.925); 
 }
 header, main, footer {
     width: 95%;
     max-width: 1200px;
     margin: 0 auto;
 }
-
+nav {
+    text-align: center;
+    border:rgb(119, 119, 0)
+}
+h1 {
+    text-align: center;
+}
 img {
     margin: auto;   
 }
 p {
     color: rgb(41, 2, 2);
+}
+address {
+    text-align: right;
+    padding: 10px;
+}
+a:link {
+    color: #290202;
+}
+a:visited {
+    color: #e41010;
+}
+a:hover {
+    color: rgb(119, 119, 0);
 }
