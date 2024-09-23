@@ -3,12 +3,13 @@ body {
     height: 100vh;
     color: rgb(8, 8, 8);
     font-family: Tahoma, Geneva, sans-serif;
-    font: rgba(10, 36, 10, 0.925); 
-}
-header, main, footer {
+    font: rgba(10, 36, 10, 0.925);
     width: 95%;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 auto; 
+}
+header {
+    box-shadow: 10px 20px 10px  lightblue;
 }
 nav {
     text-align: center;
