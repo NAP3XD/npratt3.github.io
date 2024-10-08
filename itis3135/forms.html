@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<title>ITIS-3135 Forms</title>
+		<meta charset="utf-8">
+        <link rel="stylesheet" href="styles/default.css">
+		<script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+    
+	</head>
+<body>
+
+    <div data-include="components/header.html"></div>
+    
+<main>
+<h2>Skate Lesson Sign Up</h2>
+
+<form action="#" method="post">
+    <label for="name">Skaters name:</label>
+    <input type="text" id="name" name="name" required placeholder="Tony Hawk" size="30"><br><br>
+
+    <label for="phone">Digits:</label>
+    <input type="tel" id="phone" name="phone" required placeholder="555-555-5555" size="15"><br><br>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required placeholder="RadSkater69@example.com" size="30"><br><br>
+
+    <label>Type of Skating Interested IN:</label><br>
+    <input type="checkbox" id="street" name="styles" value="Street Skating">
+    <label for="street">Street Skating</label><br>
+    <input type="checkbox" id="mini" name="styles" value="Mini Ramp">
+    <label for="mini">Mini Ramp</label><br>
+    <input type="checkbox" id="freestyle" name="styles" value="Freestyle">
+    <label for="freestyle">FreeStyle</label><br><br>
+
+    <label>Preferred Learning Style:</label><br>
+    <input type="radio" id="group" name="groupMethod" value="text" required>
+    <label for="group">Group</label><br>
+    <input type="radio" id="solo" name="grouptMethod" value="text">
+    <label for="solo">Solo</label><br><br>
+
+    <label for="budget">How long have you been Skating?:</label>
+    <select id="budget" name="budget" required>
+        <option value="">Select...</option>
+        <option value="under1">0 - 12 months</option>
+        <option value="1to2">1yr - 2yr</option>
+        <option value="2to3">2yr - 3yr</option>
+        <option value="over3">Over 3yr</option>
+    </select><br><br>
+
+    <button type="reset">Reset</button>
+    <button type="submit">Submit</button>
+</form>
+</main>
+
+    <div data-include="components/footer.html"></div>
+	<script src="scripts/HTMLInclude.min.js"></script>
+</body>
+</html>

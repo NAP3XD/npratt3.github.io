@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<title>ITIS-3135 Tables</title>
+		<meta charset="utf-8">
+        <link rel="stylesheet" href="styles/default.css">
+		<script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+    
+	</head>
+<body>
+
+    <div data-include="components/header.html"></div>
+
+    <main>
+		<h2> Web Dev 3135 Tables</h2>
+		<h3>My Tabular Data</h3>
+        <h3>Shop Pros</h3>
+        <ol>
+            <li>
+                <strong>Nyjah Huston</strong><br>
+                Email: nHuston@icehouse.com<br>
+                Years Skating: 21<br>
+                Salary: $99,000
+            </li>
+            <li>
+                <strong>Yuto Horigome</strong><br>
+                Email: yHorigome@icehouse.com<br>
+                Years Skating: 6<br>
+                Salary: $78,000
+            </li>
+            <li>
+                <strong>Tony Hawk</strong><br>
+                Email: tHawk@icehouse.com<br>
+                Years Skating: 47<br>
+                Salary: $900,000
+            </li>
+            <li>
+                <strong>Rodney Mullen</strong><br>
+                Email: rMullen@icehouse.com<br>
+                Years Skating: 49<br>
+                Salary: $1,000,000
+            </li>
+            <li>
+                <strong>Daewon Song</strong><br>
+                Email: dSong@icehouse.com<br>
+                Years Skating: 19<br>
+                Salary: $300,000
+            </li>
+            <li>
+                <strong>Zion Wright</strong><br>
+                Email: zWright@icehouse.com<br>
+                Years Skating: 3<br>
+                Salary: $60,000
+            </li>
+            <li>
+                <strong>Sora Shirai</strong><br>
+                Email: sShirai@icehouse.com<br>
+                Years Skating: 7<br>
+                Salary: $90,000
+            </li>
+        </ol>
+        <h3>Shop Pros in Simple Table</h3>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Years Skating</th>
+                <th>Salary</th>
+            </tr>
+            <tr>
+                <td>Nyjah Huston</td>
+                <td>nHuston@icehouse.com</td>
+                <td>21</td>
+                <td>$99,000</td>
+            </tr>
+            <tr>
+                <td>Yuto Horigome</td>
+                <td>yHorigome@icehouse.com</td>
+                <td>6</td>
+                <td>$78,000</td>
+            </tr>
+            <tr>
+                <td>Tony Hawk</td>
+                <td>tHawk@icehouse.com</td>
+                <td>47</td>
+                <td>$900,000</td>
+            </tr>
+            <tr>
+                <td>Rodney Mullen</td>
+                <td>rMullen@icehouse.com</td>
+                <td>49</td>
+                <td>$1,000,000</td>
+            </tr>
+            <tr>
+                <td>Daewon Song</td>
+                <td>dSong@icehouse.com</td>
+                <td>19</td>
+                <td>$300,000</td>
+            </tr>
+            <tr>
+                <td>Zion Wright</td>
+                <td>zWright@icehouse.com</td>
+                <td>3</td>
+                <td>$60,000</td>
+            </tr>
+            <tr>
+                <td>Sora Shirai</td>
+                <td>sShirai@icehouse.com</td>
+                <td>7</td>
+                <td>$90,000</td>
+            </tr>
+        </table>
+        <h3>Shop Pros in Complex Table</h3>
+        <figure>
+            <table>
+                <caption>Employee Information</caption>
+                <tr>
+                    <th>Style</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Years Skating</th>
+                    <th>Monthly Team Takehome</th>
+                </tr>
+                <tr>
+                    <td rowspan="3">Street</td>
+                    <td>Nyjah Huston</td>
+                    <td headers="nyjah" scope="row">nHuston@icehouse.com</td>
+                    <td>21</td>
+                    <td>$8,250</td>
+                </tr>
+                <tr>
+                    <td>Yuto Horigome</td>
+                    <td headers="yuto" scope="row">yHorigome@icehouse.com</td>
+                    <td>6</td>
+                    <td>$3,167</td>
+                </tr>
+                <tr>
+                    <td>Tony Hawk</td>
+                    <td headers="hawk" scope="row">tHawk@icehouse.com</td>
+                    <td>47</td>
+                    <td>$75,000</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">FreeStyle</td>
+                    <td>Rodney Mullen</td>
+                    <td headers="mullen" scope="row">rMullen@icehouse.com</td>
+                    <td>49</td>
+                    <td>$8,333</td>
+                </tr>
+                <tr>
+                    <td>Daewon Song</td>
+                    <td headers="song" scope="row">dSong@icehouse.com</td>
+                    <td>19</td>
+                    <td>$25,000</td>
+                </tr>
+                <tr>
+                    <td>Zion Wright</td>
+                    <td headers="zion" scope="row">zWright@icehouse.com</td>
+                    <td>3</td>
+                    <td>$5,000</td>
+                </tr>
+                <tr>
+                    <td>Other</td>
+                    <td>Sora Shirai</td>
+                    <td headers="sora" scope="row">sShirai@icehouse.com</td>
+                    <td>7</td>
+                    <td>$75,00</td>
+                </tr>               
+                <tr>
+                    <th colspan="3">Totals:</th>
+                    <th>152 years</th>
+                    <th>$132,250</th>
+                </tr>
+            </table>
+        </figure>
+        
+	</main>
+
+    <div data-include="components/footer.html"></div>
+	<script src="scripts/HTMLInclude.min.js"></script>
+</body>
+</html>
